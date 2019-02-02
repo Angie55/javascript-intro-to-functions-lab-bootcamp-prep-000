@@ -23,11 +23,11 @@ console.log (string.toLowerCase());
 logWhisper('Hello');
 
 function sayHiToGrandma(string)
-{ 
+  { if (string === string.lowerCase){
    return 'I can\'t hear you!';
-}
+} 
 
-{  
+
   {
    return 'YES INDEED!';
   }
