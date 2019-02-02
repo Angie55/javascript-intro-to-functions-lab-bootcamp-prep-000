@@ -26,10 +26,10 @@ function sayHiToGrandma(string)
 { 
    return 'I can\'t hear you!';
 }
-sayHiToGrandma('hello');
 
-function sayHiToGrandma(string)
-{ 
+{ if (string === string.lowerCase) 
+  {
    return 'YES INDEED!';
+  }
 }
 sayHiToGrandma('HELLO');
